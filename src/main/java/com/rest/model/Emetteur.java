@@ -1,4 +1,4 @@
-package sn.simplon.transfert_argent.model;
+package com.rest.model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -22,13 +22,10 @@ public class Emetteur implements Serializable{
 	private int cin;
 	
 	@OneToMany(mappedBy = "emetteur")
-	private List<Envoie> emetteurs = new ArrayList<Envoie>();
-	@OneToMany(mappedBy = "recepteur")
-	private List<Envoie> recepteurs = new ArrayList<Envoie>();
+	private List<Operation> operation = new ArrayList<Operation>();
 	
 	public Emetteur() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 	
 	
@@ -41,6 +38,7 @@ public class Emetteur implements Serializable{
 		this.cin = cin;
 	}
 
+	
 
 	public int getId_emetteur() {
 		return id_emetteur;

@@ -1,9 +1,9 @@
-package sn.simplon.transfert_argent.repository;
+package com.rest.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import sn.simplon.transfert_argent.model.Recepteur;
+import com.rest.model.Recepteur;
 
 @Repository
 public interface RecepteurRepository extends JpaRepository<Recepteur, Integer> {

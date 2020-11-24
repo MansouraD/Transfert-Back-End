@@ -1,4 +1,4 @@
-package sn.simplon.transfert_argent;
+package com.rest.tranfert;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
