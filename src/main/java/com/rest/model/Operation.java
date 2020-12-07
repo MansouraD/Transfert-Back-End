@@ -28,6 +28,7 @@ public class Operation implements Serializable{
 		super();
 
 	}
+	
 	public Operation(int id, String date, int montant, Emetteur emetteur, Recepteur recepteur) {
 		super();
 		this.id = id;

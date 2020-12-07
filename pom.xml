@@ -8,8 +8,8 @@
 		<version>2.2.12.BUILD-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>sn.simplon</groupId>
-	<artifactId>transfert_argent-Rest</artifactId>
+	<groupId>com.rest</groupId>
+	<artifactId>REST_API_TRANSFERT</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>transfert_argent-Rest</name>
 	<description>transfert_argent-Rest</description>

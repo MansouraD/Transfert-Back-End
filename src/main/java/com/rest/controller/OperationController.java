@@ -14,7 +14,7 @@ import com.rest.repository.EmetteurRepository;
 import com.rest.repository.OperationRepository;
 import com.rest.repository.RecepteurRepository;
 
-@CrossOrigin(origins="http://localhost:4200")
+@CrossOrigin(origins="*")
 @RestController
 @RequestMapping("/api/transfert")
 public class OperationController {
@@ -43,8 +43,6 @@ public class OperationController {
 			emetteur.setPrenom_emetteur(prenom_emetteur);
 			emetteur.setTel_emetteur(tel_emetteur.intValue());
 			emetteur.setCin(cin.intValue());
-			
-			
 			
 			Recepteur recepteur=new Recepteur();
 			recepteur.setNom_recepteur(nom_recepteur);
